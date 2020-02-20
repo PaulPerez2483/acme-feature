@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    color: black;
+  }
+  nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .selected {
+    background-color: tomato;
+    color: white;
+    padding: .25rem;
+    border-radius: .2rem;
+  }
+  
+  #home {
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #companiesPage {
+    display: flex;
+  }
+  
+  #companiesPage > ul{
+    list-style-type: none;
+    flex: 1
+  }
+  
+  #companiesPage > ul > li{
+    margin-bottom: 1rem;
+  }
+  
+  #companiesPage > div{
+    flex: 1
+  }
+  
+  .companyItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0.5rem 0;
+    border-bottom: solid 1px black;
+    padding: 0.5rem 0;
+  }
+  
+  .year {
+    background-color: tomato;
+    color: white;
+    padding: 0.5rem;
+    border-radius: .2rem;
+  }
